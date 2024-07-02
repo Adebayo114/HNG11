@@ -1,0 +1,177 @@
+.start1 {
+}
+.start {
+    display: flex;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+.me-image {
+}
+
+.img{
+    border: 8px solid black;
+    border-radius: 50%;
+}
+.info {
+    /* margin-left: 9rem; */
+    margin-top: 7rem;
+    font-size: 2rem;
+    font-family: cursive;
+}
+.header2 {
+    text-align: center;
+    margin-top: 7rem;
+    font-size: 3rem;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.FE {
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-family: cursive;
+    margin-left: 1rem;
+}
+
+.FE-head{
+    font-weight: bolder;
+}
+
+.fl-head{
+    font-weight: bolder;
+    margin-left: 1rem;
+}
+.header3 {
+    text-align: center;
+    margin-top: 7rem;
+    font-size: 3rem;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.Fl {
+    font-size: 3rem;
+    font-family: cursive;
+}
+
+.line{
+    height: 0.3rem;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0)inset;
+
+}
+
+.p-note{
+    font-size: 2rem;
+}
+
+.header4 {
+    text-align: center;
+    margin-top: 7rem;
+    font-size: 3rem;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.poa {
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+/* small devices (phones) */
+@media (max-width: 575.98px) {
+    .header2 {
+        margin-left: 15rem;
+        margin-right: -9rem;
+        text-align: center;
+        margin-top: 7rem;
+        font-size: 3rem;
+        font-family: cursive;
+        font-weight: bolder;
+    }
+    .FE {
+        margin-bottom: 1rem;
+        margin-top: 3rem;
+        font-size: 2rem;
+        font-family: cursive;
+        margin-left: 1rem;
+    }
+    
+    .line{
+        height: 0.3rem;
+        width: 50rem;
+    }
+    .FE-head{
+        font-weight: bolder;
+    }
+    
+    .fl-head{
+        font-weight: bolder;
+        margin-left: 1rem;
+    }
+    .header3 {
+        margin-left: 15rem;
+        margin-right: -9rem;
+        text-align: center;
+        margin-top: 7rem;
+        font-size: 3rem;
+        font-family: cursive;
+        font-weight: bolder;
+    }
+    .Fl {
+        font-size: 3rem;
+        font-family: cursive;
+    }
+    
+    .p-note{
+        font-size: 2rem;
+    }
+    
+    .header4 {
+        margin-left: 15rem;
+        margin-right: -9rem;
+        text-align: center;
+        margin-top: 7rem;
+        font-size: 3rem;
+        font-family: cursive;
+        font-weight: bolder;
+    }
+    .poa {
+        font-size: 2rem;
+        font-family: cursive;
+    }
+
+    .poa-kids{
+        margin-bottom: 1rem;
+    }
+    }
+
+    /* Small Devices (Tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+    .line{
+        height: 0.3rem;
+        width: 50rem;
+        box-shadow: 2px 2px 2px 2px rgb(0, 0, 0)inset;
+    
+    }
+
+    .poa-kids{
+        margin-bottom: 1rem;
+    }
+    }
+
+    /* Medium devices (desktops)  */
+    @media (min-width: 769px) and (max-width: 992px) {
+    .line{
+        height: 0.3rem;
+        width: 50rem;
+        box-shadow: 2px 2px 2px 2px rgb(0, 0, 0)inset;
+    
+    }
+    }
+
+    /* Large devices (large desktops) */
+    @media (min-width: 993px) and (max-width: 1200px) {
+            .line{
+                height: 0.3rem;
+                width: 61rem;
+                box-shadow: 2px 2px 2px 2px rgb(0, 0, 0)inset;        
+            }
+        }
