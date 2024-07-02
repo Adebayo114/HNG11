@@ -2,21 +2,45 @@
 }
 .start {
     display: flex;
-    gap: 3rem;
+    gap: 1.5rem;
     margin-left: 1rem;
 }
 .me-image {
 }
 
 .img{
+    margin-top: 6rem;
     border: 8px solid black;
     border-radius: 50%;
 }
 .info {
     /* margin-left: 9rem; */
     margin-top: 7rem;
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: cursive;
+}
+
+.info1{
+    text-align: center;
+    margin-top: 7rem;
+    font-size: 1.5rem;
+    font-family: cursive;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: rem;
+}
+
+.name {
+    font-size: 2.5rem;
+}
+
+.links a{
+    text-decoration: none;
+
+}
+
+.links a:hover{
+    color: black;
 }
 .header2 {
     text-align: center;
@@ -74,6 +98,9 @@
     font-family: cursive;
 }
 
+
+
+
 /* small devices (phones) */
 @media (max-width: 575.98px) {
     .header2 {
@@ -84,6 +111,16 @@
         font-size: 3rem;
         font-family: cursive;
         font-weight: bolder;
+    }
+
+    .info1{
+        text-align: center;
+        margin-top: 7rem;
+        font-size: 1.5rem;
+        font-family: cursive;
+        margin-bottom: 3rem;
+        margin-left: 10rem;
+        margin-right: -8rem;
     }
     .FE {
         margin-bottom: 1rem;
@@ -151,7 +188,15 @@
         box-shadow: 2px 2px 2px 2px rgb(0, 0, 0)inset;
     
     }
-
+    .info1{
+        text-align: center;
+        margin-top: 7rem;
+        font-size: 1.5rem;
+        font-family: cursive;
+        margin-bottom: 3rem;
+        margin-left: 10rem;
+        margin-right: -8rem;
+    }
     .poa-kids{
         margin-bottom: 1rem;
     }
@@ -165,6 +210,16 @@
         box-shadow: 2px 2px 2px 2px rgb(0, 0, 0)inset;
     
     }
+
+    .info1{
+        text-align: center;
+        margin-top: 7rem;
+        font-size: 1.5rem;
+        font-family: cursive;
+        margin-bottom: 3rem;
+        margin-left: 10rem;
+        margin-right: -8rem;
+    }
     }
 
     /* Large devices (large desktops) */
@@ -174,4 +229,78 @@
                 width: 61rem;
                 box-shadow: 2px 2px 2px 2px rgb(0, 0, 0)inset;        
             }
+
+            .info1{
+                text-align: center;
+                margin-top: 7rem;
+                font-size: 1.5rem;
+                font-family: cursive;
+                margin-bottom: 3rem;
+                margin-left: 1rem;
+                margin-right: rem;
+            }
         }
+
+        @media (min-width: 1200px) and (max-width: 1500px) {
+            .line{
+                height: 0.3rem;
+                width: 61rem;
+                box-shadow: 2px 2px 2px 2px rgb(0, 0, 0)inset;        
+            }
+
+            .info1{
+                text-align: center;
+                margin-top: 7rem;
+                font-size: 1.5rem;
+                font-family: cursive;
+                margin-bottom: 3rem;
+                margin-left: 1rem;
+                margin-right: rem;
+            }
+        }
+
+        /* Extra Large Devices (XXL) */
+@media (min-width: 1500px) {
+    .start {
+        display: flex;
+        gap: 1.5rem;
+        margin-left: 30rem;
+    }
+
+    .line {
+        width: 70rem; /* Adjust as necessary */
+    }
+
+    .info1 {
+        margin-top: 7rem;
+        font-size: 1.5rem;
+        font-family: cursive;
+        margin-bottom: 3rem;
+        margin-left: 1rem;
+    }
+}
+
+
+/* For devices with width between 750px and 1209.98px */
+@media (min-width: 750px) and (max-width: 1209.98px) {
+    .start {
+        display: flex;
+        gap: 1.5rem;
+        margin-left: 30rem;
+    }
+}
+
+/* For devices with width between 1210px and 1499.98px */
+@media (min-width: 1210px) and (max-width: 1499.98px) {
+    .start {
+        display: flex;
+        gap: 1.5rem;
+        margin-left: 30rem;
+    }
+}
+
+
+
+
+
+
